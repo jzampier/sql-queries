@@ -1,1 +1,2 @@
+-- Active: 1673064830012@@127.0.0.1@5432@sales_db
 CREATE DATABASE talently;
