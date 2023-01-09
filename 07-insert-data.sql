@@ -7,7 +7,7 @@ VALUES
 ('Power of Minas Inc', 'Center of the World 2022, Belzonte', 543, true);
 
 INSERT INTO conversation (user_name, employer_name, message, date_sent) VALUES
-('Pedro Sampaio', 'PETROBRAS', 'Text message 1 blablabla', '2022-01-06'),
-('Roberval Chocolate Setealer', 'Salumba Inc', 'Text message 2 hueueueue', '2022-01-06'),
-('Pedro Sampaio', 'CFM Ltda', 'Gibe mony plox', '2022-11-06'),
-('Pedro Sampaio', 'Power of Minas Inc', 'Text Text Text Text Text Text Text ', '2023-01-09');
+('Pedro Sampaio', 'PETROBRAS', 'Tem vaga ai ? Gibe mony plox! Hueueueue', '2023-01-08'),
+('Roberval Chocolate Stealer', 'Power of Minas Inc', 'Aceita Jadson?', '2023-01-06'),
+('Pedro Sampaio', 'CFM Ltda', 'Text Text Text Text Text Text', '2023-01-07'),
+('Roberval Chocolate Stealer', 'Salumba Inc', 'Text2 Text2 Text2 Text2 Text2 Text2 Text2 ', '2023-01-02');
