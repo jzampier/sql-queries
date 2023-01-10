@@ -1,4 +1,4 @@
--- Active: 1673067291495@@127.0.0.1@3306@talently
+-- Active: 1673125002031@@127.0.0.1@5432@talently
 CREATE TABLE IF NOT EXISTS employers (
     company_name VARCHAR(250),
     company_adress VARCHAR(300),
