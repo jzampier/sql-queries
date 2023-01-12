@@ -1,4 +1,4 @@
--- Active: 1673125002031@@127.0.0.1@5432@sales_example
+-- Active: 1673067291495@@127.0.0.1@3306@sales_example
 INSERT INTO sales (
   date_created,
   date_fulfilled,
