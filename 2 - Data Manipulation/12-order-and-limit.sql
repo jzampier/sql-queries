@@ -1,0 +1,19 @@
+-- Active: 1673125002031@@127.0.0.1@5432@sales_example
+SELECT * FROM sales
+ORDER BY volume;
+
+SELECT * FROM sales
+ORDER BY volume DESC
+LIMIT 10;
+
+SELECT * FROM sales
+WHERE is_disputed IS FALSE
+ORDER BY volume DESC
+LIMIT 3;
+
+--!USING OFFSET TO SKIP ROWS
+SELECT * FROM sales
+WHERE is_disputed IS FALSE
+ORDER BY volume DESC
+LIMIT 3
+OFFSET 3;
