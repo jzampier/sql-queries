@@ -1,3 +1,4 @@
+-- Active: 1673125002031@@127.0.0.1@5432@relations
 SELECT
     *
 FROM
@@ -5,4 +6,11 @@ FROM
     addresses AS a
     LEFT JOIN users AS u ON a.id = u.address_id;
 
--- *6.14
+--* Multiple LEFT JOINs
+SELECT
+    *
+FROM
+    -- left table
+    addresses AS a
+    LEFT JOIN users AS u ON a.id = u.address_id
+    LEFT JOIN cities AS c ON c.id = a.city_id;
