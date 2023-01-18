@@ -1,4 +1,4 @@
--- Active: 1673067490537@@127.0.0.1@5432@gym
+-- Active: 1673125002031@@127.0.0.1@5432@gym
 INSERT INTO
     memberships (
         membership_start,
